@@ -1,0 +1,36 @@
+{
+  "focus": "仅提醒：|等待：|导航竞争：",
+  "browser": "edge",
+  "version": "155.0.4283.45",
+  "startedAt": "2026-10-14T04:19:06.067Z",
+  "profile": "D:\\code\\behavior-rules\\work\\browser-profiles\\edge-2026-10-14T04-19-06-061Z",
+  "checks": [
+    {
+      "name": "仅提醒：页面仍可操作，确认在刷新后保留，离开网址后失效",
+      "pass": true,
+      "ms": 599
+    },
+    {
+      "name": "导航竞争：旧网页的确认不能放行导航后的新网页",
+      "pass": true,
+      "ms": 230
+    },
+    {
+      "name": "等待：提前确认被后台拒绝，倒计时后放行且刷新保留",
+      "pass": true,
+      "ms": 6180
+    }
+  ],
+  "screenshots": [
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-19-06-061Z\\02-remind.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-19-06-061Z\\03-delay.png"
+  ],
+  "notes": [
+    {
+      "workerRestart": "CDP stopWorker confirmed STOPPED; global marker disappeared after runtime message wake"
+    }
+  ],
+  "finishedAt": "2026-10-14T04:19:14.334Z",
+  "passed": 3,
+  "failed": 0
+}

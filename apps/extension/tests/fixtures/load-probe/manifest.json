@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"Behavior Rules Test Probe","version":"1.0.0","background":{"service_worker":"worker.js"}}

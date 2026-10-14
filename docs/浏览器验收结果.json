@@ -1,0 +1,183 @@
+{
+  "browser": "edge",
+  "version": "155.0.4283.45",
+  "startedAt": "2026-10-14T04:12:57.628Z",
+  "profile": "D:\\code\\behavior-rules\\work\\browser-profiles\\edge-2026-10-14T04-12-57-627Z",
+  "checks": [
+    {
+      "name": "首次安装：没有自动启用规则，网页可正常浏览",
+      "pass": true,
+      "ms": 296
+    },
+    {
+      "name": "已打开标签页立即执行网站规则；提示语及规则名可见",
+      "pass": true,
+      "ms": 152
+    },
+    {
+      "name": "普通页面不能发送保存配置操作",
+      "pass": true,
+      "ms": 21
+    },
+    {
+      "name": "路径边界与例外：匹配后代，排除指定链接，不误伤相似路径",
+      "pass": true,
+      "ms": 242
+    },
+    {
+      "name": "具体页面：query 精确匹配，默认忽略 hash，刷新仍执行",
+      "pass": true,
+      "ms": 246
+    },
+    {
+      "name": "SPA history.pushState 与 hash 变化重新判断",
+      "pass": true,
+      "ms": 325
+    },
+    {
+      "name": "仅提醒：页面仍可操作，确认在刷新后保留，离开网址后失效",
+      "pass": true,
+      "ms": 414
+    },
+    {
+      "name": "等待：提前确认被后台拒绝，倒计时后放行且刷新保留",
+      "pass": true,
+      "ms": 6171
+    },
+    {
+      "name": "直接拦截：Esc 不绕过；主按钮关闭标签页",
+      "pass": true,
+      "ms": 344
+    },
+    {
+      "name": "冲突优先级：拦截优先于提醒；单条规则例外不豁免其他规则",
+      "pass": true,
+      "ms": 291
+    },
+    {
+      "name": "指定星期与时段：当前时段执行，未选日期或不在时段不执行",
+      "pass": true,
+      "ms": 149
+    },
+    {
+      "name": "临时放行与撤回立即生效；其他冲突规则继续判断",
+      "pass": true,
+      "ms": 197
+    },
+    {
+      "name": "修改、启停和删除会更新当前页面；触发记录保存在本地",
+      "pass": true,
+      "ms": 67
+    },
+    {
+      "name": "导入验证：损坏配置不覆盖已有配置；有效 JSON 可往返导入",
+      "pass": true,
+      "ms": 72
+    },
+    {
+      "name": "导入边界：Unicode 归一化后超长地址被拒绝，正常地址可重启后读取",
+      "pass": true,
+      "ms": 247
+    },
+    {
+      "name": "继承属性同名规则 ID 仍正常等待，不能提前确认",
+      "pass": true,
+      "ms": 174
+    },
+    {
+      "name": "前台单标签计时：两个匹配标签不重复累加，后台标签不单独累加",
+      "pass": true,
+      "ms": 6308
+    },
+    {
+      "name": "跨窗口计时：仅被聚焦窗口中的活动页累加",
+      "pass": true,
+      "ms": 3004
+    },
+    {
+      "name": "额度达到后拦截；被拦截页面不再累加时长",
+      "pass": true,
+      "ms": 5419
+    },
+    {
+      "name": "临时放行真实到期后恢复拦截（1 分钟）",
+      "pass": true,
+      "ms": 61168
+    },
+    {
+      "name": "浏览器重启保留配置、用量、记录和未过期临时放行",
+      "pass": true,
+      "ms": 6114
+    },
+    {
+      "name": "表单切换：隐藏的等待秒数和时段字段不会阻塞保存",
+      "pass": true,
+      "ms": 664
+    },
+    {
+      "name": "普通表单点选、句子预览、例外编辑与保存可实际使用",
+      "pass": true,
+      "ms": 930
+    },
+    {
+      "name": "模板不会直接保存规则；导出文件与导入预览确认工作正常",
+      "pass": true,
+      "ms": 856
+    },
+    {
+      "name": "管理页与快速创建弹窗真实渲染，保留截图",
+      "pass": true,
+      "ms": 905
+    }
+  ],
+  "screenshots": [
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\01-block.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\02-remind.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\03-delay.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\06-editor-preview.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\07-templates.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\08-settings.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\04-options.png",
+    "D:\\code\\behavior-rules\\work\\browser-evidence\\edge-2026-10-14T04-12-57-627Z\\05-popup.png"
+  ],
+  "notes": [
+    {
+      "workerRestart": "CDP stopWorker confirmed STOPPED; global marker disappeared after runtime message wake"
+    },
+    {
+      "workerRestart": "CDP stopWorker confirmed STOPPED; global marker disappeared after runtime message wake"
+    },
+    {
+      "foregroundMeasurement": {
+        "deltaMs": 3249,
+        "wallMs": 3228,
+        "backgroundDeltaMs": 0
+      }
+    },
+    {
+      "multiWindowMeasurement": {
+        "deltaMs": 2530,
+        "wallMs": 2525
+      }
+    },
+    {
+      "quotaThresholdFixture": {
+        "seedMs": 58000,
+        "quotaMs": 60000,
+        "actualForegroundCrossing": true
+      }
+    },
+    {
+      "workerRestart": "CDP stopWorker confirmed STOPPED; global marker disappeared after runtime message wake"
+    },
+    {
+      "restartUsage": {
+        "beforeMs": 61824,
+        "afterMs": 62147
+      }
+    }
+  ],
+  "finishedAt": "2026-10-14T04:14:33.668Z",
+  "passed": 25,
+  "failed": 0
+}

@@ -1,0 +1,25 @@
+{
+  "name": "stilltab",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "esbuild": "0.28.2",
+    "playwright": "^1.49.1",
+    "sharp": "0.34.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "A browser extension for mindful browsing with reminders, pauses, and website rules.",
+  "license": "MIT"
+}

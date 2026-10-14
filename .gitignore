@@ -1,0 +1,59 @@
+# Dependencies, caches, and local test profiles
+node_modules/
+work/
+artifacts/
+.cache/
+graphify-out/
+*.log
+
+# Generated releases and installation copies
+/releases/
+/chrome-install/
+/apps/extension/dist/
+/apps/extension/icons/
+/apps/extension/manifest.json
+/apps/extension/background.js
+/apps/extension/content.js
+/apps/extension/options.js
+/apps/extension/popup.js
+/apps/extension/styles.css
+
+# Credentials, signing material, and machine-specific settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.mobileprovision
+key.properties
+local.properties
+
+# Packages and build outputs
+*.crx
+*.apk
+*.aab
+*.ipa
+.dart_tool/
+.gradle/
+.kotlin/
+.cxx/
+**/build/
+**/coverage/
+*.tsbuildinfo
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.swp
+
+# Screenshot capture metadata contains local test paths
+/docs/store/screenshots/capture-report.json
+
+*.provisionprofile

@@ -1,0 +1,4 @@
+<resources>
+    <string name="behavior_service_label">行为规则 · 前台应用提醒</string>
+    <string name="behavior_service_description">用于执行您亲自创建的应用使用规则：只识别前台窗口的应用包名，不读取屏幕文字、不点击界面、不收集密码、不上传数据。到达您设定的时段或额度时显示提醒、等待或拦截遮罩；返回桌面按钮只打开系统桌面。您可随时在系统设置关闭此服务或卸载应用。请先在行为规则中阅读用途说明后再开启。</string>
+</resources>
